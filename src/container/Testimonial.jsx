@@ -53,7 +53,7 @@ setCurrentIndex(index);
         </>
       )}
 
-      <div className="app__testimonial-brands app__flex">
+      {/* <div className="app__testimonial-brands app__flex">
         {brands.map((brand) => (
           <motion.div
             whileInView={{ opacity: [0, 1] }}
@@ -63,7 +63,7 @@ setCurrentIndex(index);
             <img src={urlFor(brand.imgUrl)} alt={brand.name} />
           </motion.div>
         ))}
-      </div>
+      </div> */}
     </>
   )
 }

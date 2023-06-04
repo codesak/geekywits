@@ -8,11 +8,11 @@ function App() {
     <div className="app">
       <Navbar/>
       <Header/>
-      <About/>
-      <Work/>
-      {/* <Skills/> */}
-      <Testimonial/>
       <Footer/>
+      {/* <About/> */}
+      {/* <Work/> */}
+      <Skills/>
+      <Testimonial/>
     </div>
   );
 }
