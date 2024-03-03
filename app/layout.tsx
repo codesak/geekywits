@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Geeky Wits",
   description: "Geeky Wits | IT services provider company",
+  icons: [{ rel: 'icon', url: "/Geeky Wits.png" }]
 };
 
 export default function RootLayout({
